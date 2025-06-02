@@ -1,0 +1,18 @@
+git config --global user.name amritakumarisulanki  (set your username glabally)
+git config --global user.email amrita.2t92@gmail.com (set your email id globally)
+git init              (to initialize the git repository in the current directory)
+git init <directory>  (to initialize reposiroty in the specific directory)
+git status     ( it shows the current status of repository including tracked file, untracked file, modified file and branch information)
+git commit   ( it creates the new commit with changes in the staging area and opens a default text editor for commit message)
+git branch   ( list all the branches in the repository )
+git branch -r  ( list all the remote branches)
+git branch -a  ( list all the local branch and remote branch)
+git clone < repository_url>  (this clone the repository from remote server to local machine
+git clone --<branch name> <repository_url>  ( it clone specific branch from repository)
+git push  (push local commit to the remote repository)
+git push --all ( pushes all branches to the remote repository)
+git pull 
+git remote (list all the repository)
+git checkout<branch name>  (switches to the specific branch)
+git checkout -b < new branch name>  (creates a new branch and switches to it)
+git stash ( Stashes the changes in the working directory, allowing you to switch to a different branch or commit without committing the changes).
